@@ -20,8 +20,9 @@ Repository ini dibuat untuk mendokumentasikan perkembangan saya dalam belajar HT
 - Live Server Extension  
 - Browser (Chrome/Firefox)
 
-- 📫 Kontak
+## 📫 Kontak
 Jika ada pertanyaan atau ingin berbagi pengalaman belajar, bisa hubungi saya di:
+
 📧 Email: husnuf936@gmail.com
 
 🐦 Instagram: @husnulfk

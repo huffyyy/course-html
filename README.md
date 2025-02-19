@@ -11,3 +11,19 @@ Repository ini berisi hasil belajar saya dalam memahami **HTML**, termasuk conto
 ✅ **Gambar dan Multimedia**  
 ✅ **Table & Forms**  
 ✅ **Semantic HTML**  
+
+## 🎯 Tujuan  
+Repository ini dibuat untuk mendokumentasikan perkembangan saya dalam belajar HTML serta sebagai referensi pribadi. Jika kamu juga sedang belajar HTML, semoga bisa bermanfaat! 😊  
+
+## 🛠 Tools yang Digunakan  
+- VS Code  
+- Live Server Extension  
+- Browser (Chrome/Firefox)
+
+- 📫 Kontak
+Jika ada pertanyaan atau ingin berbagi pengalaman belajar, bisa hubungi saya di:
+📧 Email: husnuf936@gmail.com
+
+🐦 Instagram: @husnulfk
+
+🚀 Happy Coding! 💻✨

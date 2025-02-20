@@ -1,0 +1,50 @@
+Tag <head>
+-Judul Halaman
+ <title></title>
+-CSS
+ <style></style>
+-Javascript
+ <script></script>
+-Metadata
+ <meta></meta>
+
+Tag <body>
+-Teks
+ <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <p>, ...
+-pendukung teks
+ <br>, <hr>, <em>, <strong>, ...
+-gambar
+ <img>
+-hyperlink
+<a>
+-list (bullets & numbering)
+ <ul>, <ol>, <li>, <dl, <dt>, <dd>﻿
+-tabel
+<table>, <thead>, <tbody>, ...
+-form
+<form>, <input>, <select>, <button>, ...
+-script
+<script>
+-object
+<object>
+-grouping
+<div>, <span>
+-komentar
+<!--x-->
+
+Struktur Tag
+<namatag atribut=''nilai/value"'>
+ex : <body(namatag) bgcolor(atribut)="lightblue''(nilai/value)
+ex : <body bgcolor="lightblue" id="myid" class="myclass">
+
+Atribut Global
+accesskey
+class
+id
+dir
+lang
+style
+tabindex
+title
+
+https://www.w3schools.com/tags/

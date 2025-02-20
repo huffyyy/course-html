@@ -25,6 +25,6 @@ Jika ada pertanyaan atau ingin berbagi pengalaman belajar, bisa hubungi saya di:
 
 📧 Email: husnuf936@gmail.com
 
-🐦 Instagram: instagram.com/husnulfk/
+🐦 Instagram: https://www.instagram.com/husnulfk/
 
 🚀 Happy Coding! 💻✨

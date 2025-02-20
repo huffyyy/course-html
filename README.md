@@ -1,4 +1,4 @@
-# 📚 Hasil Belajar HTML5 🚀  
+# 📚 Hasil Belajar HTML 🚀  
 
 Selamat datang di repository ini! 🎉  
 Repository ini berisi hasil belajar saya dalam memahami **HTML**, termasuk contoh kode, latihan, dan proyek sederhana yang saya buat selama belajar.  

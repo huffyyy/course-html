@@ -29,3 +29,7 @@ Repository ini berisi kumpulan latihan dan materi lanjutan mengenai **HTML5**, f
 ## 📚 Referensi
 - https://www.youtube.com/playlist?list=PLFIM0718LjIX-K5eeHRImnZhPUMhsw9A7
 
+- ![image 31](https://github.com/user-attachments/assets/3b106f93-c65f-4137-9210-d711c44398c6)
+
+
+

@@ -30,6 +30,6 @@ Repository ini berisi kumpulan latihan dan materi dasar mengenai **HTML** untuk 
 ## 📚 Referensi
 - https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F
 
-![image 31](https://github.com/user-attachments/assets/e3f69ac4-7b3d-4174-8439-174e1b93791d)
+- ![image 31](https://github.com/user-attachments/assets/e3f69ac4-7b3d-4174-8439-174e1b93791d)
 
 

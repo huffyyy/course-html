@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Elements</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.125em;
+            line-height: 1.6;
+            color: #333;
+            padding: 2em;
+        }
+
+        .hero {
+            display: grid;
+            grid-gap: 2em;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        @media (min-width: 960px) {
+            .hero {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+
+    </style>
+</head>
+<body>  
+    <div class="hore">
+        <div class="hero-text">
+            <h1>Hello Hufy</h1>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <picture>
+            <source media="(min-width: 960px)" srcset="img2/husnul1.png" sizes="50vw"> 
+            <source media="(min-width: 600px)" srcset="img2/husnul2.png">
+            <img src="img2/husnul3.png" alt="orang ganteng">
+        </picture>
+    </div>
+    
+    <h1>Image Elemets</h1>
+    <figure>
+        <img src="img/husnul3.png" alt="Orang Ganteng" srcset=" img/husnul3.png 500w, 
+                                                                img/husnul2.png 750w, 
+                                                                img/husnul1.png 1000w" 
+             sizes="(min-width: 1200px) 50vw" loading="lazy">
+        <figcaption>Orang ganteng pake kacamata</figcaption>
+    </figure>
+</body>
+</html>

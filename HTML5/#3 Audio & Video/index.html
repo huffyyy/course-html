@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio & VIdeo</title>
+    <!-- <style>
+        body, h1 {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* background-color: rgba(0, 0, 0, 0.3); */
+            background-image: linear-gradient(to right,rgba(41, 216, 239, 0.3), rgba(255, 255, 255, 0.3) );
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 3em;
+            position: relative;
+            position: relative;
+            min-height: 100vw;
+        }
+
+        .video-bg {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            min-height: 100%;
+            min-width: 100%;
+            z-index: -1;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- <audio src="" controls preload="" autoplay loop muted></audio> -->
+    <!-- Digunakan untuk menjalankan file audio
+         File yang didukung : .mp3, .wav, .ogg
+         Bisa menggunakan tag <source> untuk memilih audio -->
+   
+    <!-- <video src="" controls preload="" loop muted autoplay width="" height=""></video> -->
+         
+        <!-- <figure>
+            <figcaption>
+                JJ Tumang
+            </figcaption>
+            <video poster="img/thumbnailJJ.png" loop autoplay muted>
+                <source src="video/1.mp4" type="video/webm">
+            </video>
+        </figure>
+
+         <figure>
+            <figcaption>
+                Dengarkan "Keyshia Cole Amapiano"
+            </figcaption>
+            <audio controls muted autoplay loop >
+                <source src="audio/1.mp3" type="audio/mp3">
+                <source src="audio/1.mp3" type="audio/mpeg">
+            </audio>
+         </figure> -->
+
+    <!-- <div class="hero">
+        <h1>Welcome</h1>
+         <video class= "video-bg" src="video/1.mp4" autoplay muted loop></video>
+    </div> -->
+
+    <video controls >
+        <source src="video/2.mp4" type="video/webm">
+        <track src="captions/captions.vtt" kind="captions" title="Bahasa Indonesia" srclang="id"></track>
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SQMruNuafHk?si=-F7sK_8rdUDWl3XD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

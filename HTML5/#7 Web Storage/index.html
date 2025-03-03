@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Storage</title>
+    <style>
+        a {
+            color: inherit;
+        }
+        .dark-mode {
+            background-color: black;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Halo Husnul!</h1>
+    <a href="#" onclick="gantiNama(event)">Ganti Nama</a>
+    <a href="#" onclick="hapusNama(event)">Hapus Nama</a>
+    <a href="" class="toggle">Dark Mode/a>
+    
+    
+    <script>
+        const judul = document.querySelector('h1');
+    
+        let nama = localStorage.getItem('nama');
+        if (!nama) {
+            nama = prompt('Masukkan nama Anda:');
+            localStorage.setItem('nama', nama);
+        }
+        judul.innerHTML = `Halo, ${nama}!`;
+    
+        // Ganti Nama
+        const gantiNama = (e) => {
+            e.preventDefault(); // Mencegah link berpindah halaman
+            let namaBaru = prompt('Nama baru Anda:');
+            if (namaBaru) {
+                localStorage.setItem('nama', namaBaru);
+                judul.innerHTML = `Halo, ${namaBaru}!`;
+            }
+        };
 
+        // Hapus NAma 
+        const hapusNama = (e) => {
+            e.preventDefault(); // Mencegah link berpindah halaman
+            localStorage.removeItem('nama');
+            judul.innerHTML = 'Halo, Pengguna!';
+            alert('Nama telah dihapus.');
+        }
+    </script>
+</body>
+</html>
